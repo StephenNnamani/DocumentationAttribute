@@ -6,18 +6,18 @@ using System.Text;
 namespace DocumentTool
 {
     [AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = true)]
-    public class DocumentAttribute : Attribute
+    public class DocumentationAttribute : Attribute
     {
         public string Description { get; set; }
         public string Input { get; set; }
         public string Output { get; set; }
 
-        public DocumentAttribute(string description)
+        public DocumentationAttribute(string description)
         {
             Description = description;
         }
 
-        public DocumentAttribute(string description, string input = "", string output = "")
+        public DocumentationAttribute(string description, string input = "", string output = "")
         {
             Description = description;
             Input = input;
@@ -40,9 +40,9 @@ namespace DocumentTool
 
             foreach (Attribute item in classAttr)
             {
-                if (item is DocumentAttribute)
+                if (item is DocumentationAttribute)
                 {
-                    DocumentAttribute doc = (DocumentAttribute)item;
+                    DocumentationAttribute doc = (DocumentationAttribute)item;
                     Console.WriteLine("\nDescription:\n\t{0}", doc.Description);
                 }
             }
@@ -61,9 +61,9 @@ namespace DocumentTool
 
                 foreach (Attribute item in propAttr)
                 {
-                    if (item is DocumentAttribute)
+                    if (item is DocumentationAttribute)
                     {
-                        DocumentAttribute doc = (DocumentAttribute)item;
+                        DocumentationAttribute doc = (DocumentationAttribute)item;
                         Console.WriteLine("{0}\nDescription:\n\t{1}\nInput:\n\t{2}\n", properties[i].Name, doc.Description, doc.Input);
                     }
                 }
@@ -82,9 +82,9 @@ namespace DocumentTool
 
                 foreach (Attribute item in methAttr)
                 {
-                    if (item is DocumentAttribute)
+                    if (item is DocumentationAttribute)
                     {
-                        DocumentAttribute doc = (DocumentAttribute)item;
+                        DocumentationAttribute doc = (DocumentationAttribute)item;
                         Console.WriteLine("{0}\nDescription:\n\t{1}\nInput:\n\t{2}", methods[i].Name, doc.Description, doc.Input);
                     }
                 }

@@ -2,43 +2,85 @@
 
 namespace DocumentTool
 {
-    [Document("This is a human being")]
+    [Documentation("This is a human being")]
     public class PersonModel
     {
 
-        [Document("This is the number of years the person has lived", "Only takes an integer (int)")]
+        [Documentation("This is the number of years the person has lived", "Only takes an integer (int)")]
         public int Age { get; set; }
 
-        [Document("The characteristics of this person", "Takes in an enum")]
+        [Documentation("The characteristics of this person", "Takes in an enum")]
         public GenderEnum Gender { get; set; }
+
+        public SkinEnum SkinColor { get; set; }
 
         public PersonModel()
         {
 
         }
 
-        public PersonModel(int age, GenderEnum gender)
+        public PersonModel(int age, GenderEnum gender, SkinEnum skinColor)
         {
             Age = age;
             Gender = gender;
+            SkinColor = skinColor;
 
         }
 
-        [Document("Describes the gender")]
+        [Documentation("Describes the gender")]
         public enum GenderEnum
         {
             Male,
             Female
         }
 
-        [Document("Makes a rather obvious sentence with the parameters provided", "Age and gender", "Outputs a sentence, otherwise known as string")]
-        public void MakeSentenceWithPerson(int age, GenderEnum gender)
+        public enum SkinEnum
+        {
+            Dark,
+            Chocolate,
+            White,
+        }
+
+        [Documentation("Using the model above to describe a person", "Age, gender, Skin color", "Console.Writes description based on Skin Type")]
+        public void DescribeAPerson(int age, GenderEnum gender, SkinEnum skinColor)
         {
             this.Gender = gender;
             this.Age = age;
+            this.SkinColor = skinColor;
 
-            if (GenderEnum.Male == gender) Console.WriteLine("We have a {0} year old male", age);
-            else Console.WriteLine("We have a {0} year old female", age);
+            switch (SkinColor)
+            {
+                case SkinEnum.Chocolate:
+                    if(GenderEnum.Female == gender)
+                    {
+                        Console.WriteLine($"Welcome Ms.{SkinColor}, it's my pleasure meeting you. Happy {age}th Birthday girl and Gratulation!, I heard you gave birth last month?");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Welcome Mr.{SkinColor}, it's my pleasure meeting you. Happy {age}th Birthday man and Gratulation!!!, I heard your wife gave birth last month?");
+                    }
+                    break;
+                case SkinEnum.Dark:
+                    if (GenderEnum.Female == gender)
+                    {
+                        Console.WriteLine($"Welcome Ms.{SkinColor}, it's my pleasure meeting you. Happy {age}th Birthday girl and Gratulation!, I heard you gave birth last month?");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Welcome Mr.{SkinColor}, it's my pleasure meeting you. Happy {age}th Birthday man and Gratulation!!!, I heard your wife gave birth last month?");
+                    }
+                    break;
+                case SkinEnum.White:
+                    if (GenderEnum.Female == gender)
+                    {
+                        Console.WriteLine($"Welcome Ms.{SkinColor}, it's my pleasure meeting you. Happy {age}th Birthday girl and Gratulation!, I heard you gave birth last month?");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Welcome Mr.{SkinColor}, it's my pleasure meeting you. Happy {age}th Birthday man and Gratulation!!!, I heard your wife gave birth last month?");
+                    }
+                    break;
+            }
         }
     }
 
