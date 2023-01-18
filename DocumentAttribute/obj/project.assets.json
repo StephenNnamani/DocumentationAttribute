@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Documentation_Code\\DocumentAttribute\\DocumentTool.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\DocumentTool.csproj",
       "projectName": "DocumentTool",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\Documentation_Code\\DocumentAttribute\\DocumentTool.csproj",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\DocumentTool.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\source\\repos\\Documentation_Code\\DocumentAttribute\\obj\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

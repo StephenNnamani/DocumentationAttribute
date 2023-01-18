@@ -3,28 +3,28 @@
 namespace DocumentTool
 {
     [Document("This is a human being")]
-    public class SamplePerson
+    public class PersonModel
     {
 
-        [Document("Refers to how long this person has been on earth", "Takes in an integer")]
+        [Document("This is the number of years the person has lived", "Only takes an integer (int)")]
         public int Age { get; set; }
 
-        [Document("Obvious biological traits associated with this person", "Takes in an enum")]
+        [Document("The characteristics of this person", "Takes in an enum")]
         public GenderEnum Gender { get; set; }
 
-        public SamplePerson()
+        public PersonModel()
         {
 
         }
 
-        public SamplePerson(int age, GenderEnum gender)
+        public PersonModel(int age, GenderEnum gender)
         {
             Age = age;
             Gender = gender;
 
         }
 
-        [Document("Provides valid gender options a person can be")]
+        [Document("Describes the gender")]
         public enum GenderEnum
         {
             Male,
