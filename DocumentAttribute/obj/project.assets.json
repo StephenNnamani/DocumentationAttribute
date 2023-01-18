@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\DocumentTool.csproj",
-      "projectName": "DocumentTool",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\DocumentTool.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\Documentation.csproj",
+      "projectName": "Documentation",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\Documentation.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\source\\repos\\Project 01\\Instalment\\DocumentationAttribute\\DocumentAttribute\\obj\\",
       "projectStyle": "PackageReference",

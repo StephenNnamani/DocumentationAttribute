@@ -1,0 +1,10 @@
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\obj\Debug\netstandard2.0\Documentation.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\obj\Debug\netstandard2.0\Documentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\obj\Debug\netstandard2.0\Documentation.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\obj\Debug\netstandard2.0\Documentation.AssemblyInfo.cs
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\obj\Debug\netstandard2.0\Documentation.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\bin\Debug\netstandard2.0\Documentation.deps.json
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\bin\Debug\netstandard2.0\Documentation.dll
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\bin\Debug\netstandard2.0\Documentation.pdb
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\obj\Debug\netstandard2.0\Documentation.dll
+C:\Users\USER\source\repos\Project 01\Instalment\DocumentationAttribute\DocumentAttribute\obj\Debug\netstandard2.0\Documentation.pdb

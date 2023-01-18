@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentCode", "DocumentCode\DocumentCode.csproj", "{9D5A3ECD-8934-4263-8CE6-C0BF4F565090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTool", "DocumentAttribute\DocumentTool.csproj", "{C72CA256-A5EC-4B58-ADFF-62177DB1D6E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Documentation", "DocumentAttribute\Documentation.csproj", "{C72CA256-A5EC-4B58-ADFF-62177DB1D6E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
