@@ -24,11 +24,16 @@ namespace DocumentTool
             Output = output;
         }
 
-        public static void GetDocs(Type classtype)
+        private static void GetDocs1(Type classtype)
         {
             DisplayClassAttr(classtype);
             DisplayPropAttr(classtype);
             DisplayMethodAttr(classtype);
+        }
+
+        public static void GetDocs()
+        {
+            GetDocs1(typeof(PersonModel));
         }
 
         public static void DisplayClassAttr(Type classtype)
